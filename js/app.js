@@ -1,6 +1,18 @@
-console.log('luna is started...');
+// console.log('luna is started...');
 
-let cardNum = [4,1,4,9,4,9,7,8,7,3,3,2,7,7,4,8];
+let userInp = prompt('Введите 16-значный номер карты:', '');    //userInp != +userInp
+
+let cardNum = userInp.split('');
+
+if (cardNum.length == 16 && userInp == +userInp) {
+    for (let i = 0; i < cardNum.length; i++) {
+        cardNum[i] = +cardNum[i];
+        }    
+} else {
+    alert('Вы ввели недопустимый номер карты');
+
+}
+
 let cardNumRev = [];
 
 //реверс массива
@@ -23,6 +35,7 @@ for (let i = 1; i < cardNumRev.length; i += 2) {
 
 (summ % 10 == 0)?alert('Номер указан верно'):alert('Номер указан неверно');
 
+console.log(userInp);
 console.log(cardNum);
 console.log(cardNumRev);
 console.log(summ);
