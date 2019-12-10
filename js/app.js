@@ -34,7 +34,8 @@ if (cardNum.length == 16 && userInp == +userInp) {
     (summ % 10 == 0)?alert('Ваша карта прошла проверку'):alert('Ваша карта не прошла проверку');
 
 } else {
-    confirm('Проверьте правильность ввода карты');
+    alert('Проверьте правильность ввода карты');
+    history.back();
 };
 
 console.log(userInp);
