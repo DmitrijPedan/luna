@@ -1,9 +1,12 @@
 
 header {
+
     background-color: #17a2b8;
     margin-bottom: 30px;
 }
-
+main {
+    margin-bottom: 30px;
+}
 .title {
     text-align: center;
     color: white; 
@@ -63,6 +66,9 @@ h3 {
 }
 
 footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
     background-color: #17a2b8;
     margin-top: 30px;
     text-align: center;
