@@ -1,0 +1,71 @@
+
+header {
+    background-color: #17a2b8;
+    margin-bottom: 30px;
+}
+
+.title {
+    text-align: center;
+    color: white; 
+}
+.title a {
+    font-size: 18px;
+    color: rgb(250, 148, 79);
+}
+
+.btn-wrapper {
+    text-align: center;
+    margin: 20px;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card-number {
+    font-size: 24px;
+}
+h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.card-success {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    width: 250px;
+    height: 150px;
+    border: 1px solid #28a745;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+.message-success {
+    font-size: 16px;
+    color: green;
+}
+
+.card-fail {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    width: 250px;
+    height: 150px;
+    border: 1px solid #ee1717;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+.message-fail {
+    font-size: 16px;
+    color: rgb(207, 34, 3);
+}
+
+footer {
+    background-color: #17a2b8;
+    margin-top: 30px;
+    text-align: center;
+}
+
+
