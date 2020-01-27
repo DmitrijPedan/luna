@@ -13,11 +13,13 @@ main {
 }
 .title a {
     font-size: 18px;
-    color: rgb(250, 148, 79);
+    color: rgb(131, 250, 94);
 }
 
 .btn-wrapper {
     text-align: center;
+}
+.btn-wrapper button {
     margin: 20px;
 }
 .cards {
