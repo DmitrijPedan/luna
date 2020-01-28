@@ -80,7 +80,7 @@ const renderApp = () => {
         let p1 = createHTMLNode('p', [{name: 'class', value:['message-success']}], 'Карта прошла проверку');
         let h3 = createHTMLNode('h3', [], `${getPaySystem(cardNumber)}`);
         let message = createHTMLNode('div', [{name: 'class', value:['card-success']}], [h3,p2,p1]);
-        document.getElementById('app').prepend(message);
+        document.getElementById('output').prepend(message);
     } else {
         let p1 = createHTMLNode('p', [{name: 'class', value:['message-fail']}], 'Карта не прошла проверку');
         let h3 = createHTMLNode('h3', [], 'No pay system');
